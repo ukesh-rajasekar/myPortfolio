@@ -5,15 +5,15 @@ export default function Work() {
    return (
       <div
          id='work'
-         style={{
-            height: '100vh',
-            position: 'sticky',
-            top: 0,
-            backgroundColor: '#cfe5cc',
-            display: 'flex',
-            justifyContent: 'space-around',
-            alignItems: 'center',
-         }}
+         //  style={{
+         //     height: '100vh',
+         //     position: 'sticky',
+         //     top: 0,
+         //     backgroundColor: '#cfe5cc',
+         //     display: 'flex',
+         //     justifyContent: 'space-around',
+         //     alignItems: 'center',
+         //  }}
       >
          <div
             className='work-wrapper'

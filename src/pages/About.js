@@ -7,15 +7,15 @@ export default function About() {
    return (
       <div
          id='about'
-         style={{
-            height: '100vh',
-            position: 'sticky',
-            top: 0,
-            backgroundColor: '#ffe9a0',
-            display: 'flex',
-            justifyContent: 'space-around',
-            alignItems: 'center',
-         }}
+         // style={{
+         //    height: '100vh',
+         //    position: 'sticky',
+         //    top: 0,
+         //    backgroundColor: '#ffe9a0',
+         //    display: 'flex',
+         //    justifyContent: 'space-around',
+         //    alignItems: 'center',
+         // }}
       >
          <div
             style={{
@@ -27,9 +27,6 @@ export default function About() {
          >
             <div
                style={{
-                  // width: '50%',
-                  // height: '100%',
-                  // margin: '3%',
                   flex: 1,
                   textAlign: 'justify',
                }}
@@ -54,15 +51,7 @@ export default function About() {
                </Typography>
                <br />
             </div>
-            <Box
-               display={{ xs: 'none', md: 'block', lg: 'block' }}
-               style={{
-                  flex: 1,
-                  display: 'flex',
-                  justifyContent: 'flex-end',
-                  position: 'relative',
-               }}
-            >
+            <div className='image'>
                <img
                   style={{
                      // position: 'absolute',
@@ -72,7 +61,7 @@ export default function About() {
                   src={me}
                   alt='soloTraveller'
                />
-            </Box>
+            </div>
          </div>
       </div>
    );

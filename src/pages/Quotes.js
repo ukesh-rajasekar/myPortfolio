@@ -5,15 +5,15 @@ export default function Quotes() {
    return (
       <div
          id='site'
-         style={{
-            height: '100vh',
-            position: 'sticky',
-            top: 0,
-            backgroundColor: '#ffd9e1',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-         }}
+         //  style={{
+         //     height: '100vh',
+         //     position: 'sticky',
+         //     top: 0,
+         //     backgroundColor: '#ffd9e1',
+         //     display: 'flex',
+         //     justifyContent: 'center',
+         //     alignItems: 'center',
+         //  }}
       >
          <div
             className='site-wrapper'
