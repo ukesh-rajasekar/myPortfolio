@@ -25,7 +25,7 @@ export default function Footer() {
                width: '80%',
                display: 'flex',
                alignItems: 'center',
-               flexDirection: 'row',
+               flexDirection: 'column',
                justifyContent: 'space-around',
             }}
          >
