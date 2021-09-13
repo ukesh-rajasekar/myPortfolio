@@ -1,30 +1,11 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import me from '../constants/mee.png';
-import { Box } from '@material-ui/core';
 
 export default function About() {
    return (
-      <div
-         id='about'
-         // style={{
-         //    height: '100vh',
-         //    position: 'sticky',
-         //    top: 0,
-         //    backgroundColor: '#ffe9a0',
-         //    display: 'flex',
-         //    justifyContent: 'space-around',
-         //    alignItems: 'center',
-         // }}
-      >
-         <div
-            style={{
-               width: '80%',
-               display: 'flex',
-               alignItems: 'center',
-               justifyContent: 'space-between',
-            }}
-         >
+      <div id='about'>
+         <div className='about-wrapper'>
             <div
                style={{
                   flex: 1,
@@ -54,9 +35,7 @@ export default function About() {
             <div className='image'>
                <img
                   style={{
-                     // position: 'absolute',
-                     maxHeight: '700px',
-                     // bottom: '0px',
+                     maxHeight: '570px',
                   }}
                   src={me}
                   alt='soloTraveller'

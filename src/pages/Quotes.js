@@ -3,28 +3,8 @@ import { Typography } from '@material-ui/core';
 
 export default function Quotes() {
    return (
-      <div
-         id='site'
-         //  style={{
-         //     height: '100vh',
-         //     position: 'sticky',
-         //     top: 0,
-         //     backgroundColor: '#ffd9e1',
-         //     display: 'flex',
-         //     justifyContent: 'center',
-         //     alignItems: 'center',
-         //  }}
-      >
-         <div
-            className='site-wrapper'
-            style={{
-               width: '80%',
-               display: 'flex',
-               flexDirection: 'row',
-               alignItems: 'center',
-               justifyContent: 'space-around',
-            }}
-         >
+      <div id='site'>
+         <div className='site-wrapper'>
             <div className='quotes' style={{ flex: '3' }}>
                <Typography variant='h5' className='text-heading'>
                   📜Favourite Quotes

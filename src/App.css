@@ -37,7 +37,6 @@
 
 #site {
    background-color: rgb(255, 217, 225);
-   /* justify-content: center; */
 }
 
 .image {
@@ -47,10 +46,31 @@
    position: relative;
 }
 
+.work-wrapper,
+.header-wrapper,
+.about-wrapper,
+.site-wrapper {
+   width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.work-wrapper {
+   flex-direction: column;
+}
+
+.header-wrapper {
+   flex-direction: column;
+}
+
+.site-wrapper {
+   flex-direction: row;
+}
+
 @media screen and (max-width: 800px) {
    .header {
       background-image: none;
-      /* position: relative; */
    }
    #about,
    #work,

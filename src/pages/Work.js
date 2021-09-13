@@ -3,26 +3,8 @@ import Typography from '@material-ui/core/Typography';
 
 export default function Work() {
    return (
-      <div
-         id='work'
-         //  style={{
-         //     height: '100vh',
-         //     position: 'sticky',
-         //     top: 0,
-         //     backgroundColor: '#cfe5cc',
-         //     display: 'flex',
-         //     justifyContent: 'space-around',
-         //     alignItems: 'center',
-         //  }}
-      >
-         <div
-            className='work-wrapper'
-            style={{
-               width: '80%',
-               display: 'flex',
-               flexDirection: 'column',
-            }}
-         >
+      <div id='work'>
+         <div className='work-wrapper'>
             <Typography variant='h5' className='text-heading'>
                My work
             </Typography>
