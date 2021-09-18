@@ -38,14 +38,6 @@ export default function Navbar() {
          >
             Site
          </Typography>
-         <Typography size='small'>
-            <a
-               href='mailto:ukeshraju@gmail.com'
-               style={{ color: 'white', textDecoration: 'none' }}
-            >
-               Connect with me
-            </a>
-         </Typography>
       </div>
    );
 }

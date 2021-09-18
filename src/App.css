@@ -4,19 +4,26 @@
 }
 
 .header {
-   text-align: center;
+   background-image: url('./constants/rain.svg');
    background-color: rgb(204, 234, 247);
+}
+.header,
+.footer {
+   text-align: center;
    height: 100vh;
    position: sticky;
    top: 0px;
    display: flex;
    justify-content: space-around;
    align-items: center;
-   background-image: url('./constants//rain.svg');
+
    background-size: cover;
    background-position: center bottom;
 }
 
+.footer {
+   background-color: #bee1e5;
+}
 #about,
 #work,
 #site {
@@ -104,16 +111,21 @@
    #about,
    #work,
    .header,
-   #site {
+   #site,
+   .footer {
       height: 100vh;
       width: 100%;
 
       padding: 1rem;
    }
-
-   img {
-      width: 50vh;
-      height: 50vh;
+   .music,
+   .quotes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .site-wrapper {
+      flex-direction: column;
    }
    .h1 {
       font-size: 3em !important;
@@ -121,11 +133,32 @@
    .image {
       display: none;
    }
+}
 
-   .navbar {
-      margin-bottom: 0;
-      position: fixed;
-      top: 0;
+@media screen and (max-width: 470px) {
+   #about,
+   #work,
+   .header,
+   #site,
+   .footer {
+      height: auto;
+      top: auto;
       width: 100%;
+
+      padding: 1rem;
+      position: relative;
+   }
+   .music,
+   .quotes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .site-wrapper {
+      flex-direction: column;
+   }
+
+   #header-gif {
+      display: none;
    }
 }

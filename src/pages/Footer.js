@@ -1,10 +1,10 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import lighthouse from '../constants/lighthouse.gif';
+import lighthouse from '../constants/balloon.png';
 
 export default function Footer() {
    return (
-      <div className='header'>
+      <div className='footer'>
          <div className='header-wrapper'>
             <img id='header-gif' src={lighthouse} alt='soloTraveller' />
             <div>

@@ -13,6 +13,7 @@ export default function Header() {
                <Typography variant='h1' className='h1'>
                   Ukesh Rajasekar
                </Typography>
+
                <Typewriter />
             </div>
          </div>

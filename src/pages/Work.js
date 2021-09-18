@@ -35,23 +35,30 @@ export default function Work() {
                >
                   LinkedIn
                </a>
-               {' , '}
-               <a
-                  style={{ color: 'white', textDecoration: 'none' }}
-                  href='https://github.com/ukesh-rajasekar'
-               >
-                  git
-               </a>
                {'.'}
             </Typography>
             <br />
             <Typography>
-               Come, say hi to me{' '}
+               Projects{' '}
                <a
                   style={{ color: 'white', textDecoration: 'none' }}
-                  href='emailto:ukeshraju@gmail.com'
+                  href='https://ukesh-rajasekar.github.io/look-up/'
                >
-                  email
+                  look-up
+               </a>
+               {' . '}
+               <a
+                  style={{ color: 'white', textDecoration: 'none' }}
+                  href='https://ukesh-rajasekar.github.io/game-of-life/'
+               >
+                  game of life
+               </a>{' '}
+               {' . '}
+               <a
+                  style={{ color: 'white', textDecoration: 'none' }}
+                  href='https://github.com/ukesh-rajasekar'
+               >
+                  more work
                </a>
                {'.'}
             </Typography>
