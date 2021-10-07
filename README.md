@@ -1,9 +1,7 @@
-### Get started in your local
+### Run
+npm install
+yarn start
 
-### npm install
+##(or)
 
-### yarn start
-
-    (or)
-
-### go to https://ukesh-rajasekar.github.io/myPortfolio/
+go to https://ukesh-rajasekar.github.io/myPortfolio/
