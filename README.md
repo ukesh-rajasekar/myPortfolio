@@ -1,6 +1,6 @@
 ### Run
-npm install
-yarn start
+  npm install
+  yarn start
 
 ##(or)
 
