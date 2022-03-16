@@ -1,8 +1,8 @@
-import Typewriter from '../components/Typewriter';
-import headerBg from '../constants/planes.gif';
+import Typewriter from '../utils/Typewriter';
+import headerBg from '../assets/planes.gif';
 import Typography from '@material-ui/core/Typography';
 
-export default function Header() {
+export default function Header () {
    return (
       <div className='header'>
          <div className='header-wrapper'>

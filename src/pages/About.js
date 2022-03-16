@@ -1,8 +1,8 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import me from '../constants/mee.png';
+import me from '../assets/mee.png';
 
-export default function About() {
+export default function About () {
    return (
       <div id='about'>
          <div className='about-wrapper'>
@@ -20,8 +20,7 @@ export default function About() {
                   I'm from the southern part of India, Tamil Nadu, the land of
                   temples and festivals 🎡🎠. I moved to Sydney in February 7
                   2020, to pursue my masters in Information Technology at UNSW.
-                  I'm currently in my last term of my uni and will be graduating
-                  in November 2021.
+                  I am a recent graduate and a full time engineer.
                </Typography>
                <br />
                <Typography>

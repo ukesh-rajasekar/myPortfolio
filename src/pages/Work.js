@@ -1,7 +1,7 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
-export default function Work() {
+export default function Work () {
    return (
       <div id='work'>
          <div className='work-wrapper'>
@@ -10,6 +10,7 @@ export default function Work() {
             </Typography>
             <br />
             <Typography>
+               I am currently working as a software engineer at Listing Loop.
                Before masters, I was working as a software engineer for two
                years, in India. I worked extensively on Python and automation
                during these period.
@@ -23,8 +24,9 @@ export default function Work() {
             </Typography>
             <br />
             <Typography>
-               I am an aspiring full stack developer 👨‍💻. I love to work with
-               React, Javascript and Python projects.
+               I am an aspiring full stack developer 👨‍💻. Eventhough I love to work on
+               React/JavaScript, python projects, I am always looking forward to learn
+               new techs, solve problems, share knowledge and have a good time while doing it.
             </Typography>
             <br />
             <Typography>

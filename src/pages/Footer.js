@@ -1,8 +1,8 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import lighthouse from '../constants/balloon.png';
+import lighthouse from '../assets/balloon.png';
 
-export default function Footer() {
+export default function Footer () {
    return (
       <div className='footer'>
          <div className='header-wrapper'>

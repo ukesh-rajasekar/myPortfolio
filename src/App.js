@@ -5,7 +5,7 @@ import './App.css';
 import Footer from './pages/Footer';
 import Work from './pages/Work';
 
-function App() {
+function App () {
    return (
       <div className='App'>
          <div className='wrapper'>

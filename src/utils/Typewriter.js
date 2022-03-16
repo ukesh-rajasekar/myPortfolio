@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Typography from '@material-ui/core/Typography';
 
-export default function Typewriter() {
+export default function Typewriter () {
    const [text, settext] = useState('software engineer. ');
    const [tags, settags] = useState('');
    const [backspace, setbackspace] = useState(false);
